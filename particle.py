@@ -1,17 +1,14 @@
 import taichi as ti
 
 
-class Particle:
-    pass
+class ParticleGroup:
 
+    def __init__(self,particle_num):
+        self.particle_num=particle_num
 
-class ParticleSystem:
-
-    def __init__(self):
         pass
 
-    def update(self, dt):
+    def advect(self, dt):
         pass
-
 
     pass
